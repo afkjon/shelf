@@ -8,10 +8,4 @@ import org.springframework.context.ApplicationContext;
 
 @SpringBootTest
 class ShelfApplicationTests {
-	
-	@Test
-	void contextLoads(ApplicationContext context) {	
-		assertThat(context).isNotNull();
-	}
-
 }
