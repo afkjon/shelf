@@ -40,3 +40,4 @@ build/
 !**/src/test/**/pom.xml
 
 *.properties
+misc-commands

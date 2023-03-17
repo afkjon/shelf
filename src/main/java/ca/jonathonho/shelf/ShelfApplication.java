@@ -22,6 +22,8 @@ public class ShelfApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**").allowedOrigins("http://localhost:3000");
+				registry.addMapping("/**").allowedOrigins("https://sfx.jonathonho.ca");
+				registry.addMapping("/**").allowedOrigins("https://onomatopoeia-ref.onrender.com/");
 			}
 		};
 	}
